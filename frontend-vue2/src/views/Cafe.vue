@@ -22,7 +22,7 @@
       <span>Бизнес-ланч:</span> {{ cafe.business_lunch ? 'есть' : 'нет' }}
     </div>
     <div v-if="cafe.price" class="cafe_info">
-      <span>Цена:</span> {{ cafe.price }} р
+      <span>Средний чек:</span> {{ cafe.price }} р
     </div>
     <div v-if="cafe.photo" class="cafe_info">
       <img :src="cafe.photo" alt="img">
